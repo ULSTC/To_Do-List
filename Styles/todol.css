@@ -1,0 +1,51 @@
+.addbut,.js-date,.inputarea,.delete-button{
+  height: 40px;
+  width: 60px;
+
+  font-family: Arial;
+} 
+ 
+body{
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(226, 253, 74));
+    background-image: linear-gradient(to left,rgb(226, 253, 74), rgb(73, 92, 235)); */
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72760.jpg?w=1380&t=st=1723121495~exp=1723122095~hmac=c5adaf72c68a539ed306582717be24f2422ff6b7a43e5a32a5b755242c5d7095");
+}
+    /* background-color: rgb(148, 211, 190); */
+
+.title_font{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-left: 550px;
+}
+.inputarea{
+    width: 230px;
+    font-size: 15px;
+    height: 38px;
+}
+.js-date{
+    width: 100px;
+
+}
+.addbut,.delete-button{
+    border: none;
+    border-radius: 5px;
+    height: 47px;
+    background-color:green;
+    width:80px ; 
+    color: white;
+}
+.delete-button{
+    background-color: orange;
+}
+.js-todo-grid,.input-grid{
+    padding-left: 400PX;
+    display: grid;
+    grid-template-columns: 230px 100px 80px;
+    column-gap: 15px;
+    row-gap: 10px;
+    align-items: centre;
+}
+.input-grid{
+    margin-bottom: 5px;
+}
